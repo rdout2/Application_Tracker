@@ -1,0 +1,24 @@
+[
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "company": "Acme Corp",
+        "link": "https://example.com/job1",
+        "applicationDate": "2024-01-20",
+        "status": "En cours de processus",
+        "interviewDate": "2024-01-27",
+        "notes": "First interview completed.",
+        "remarques": "Follow up required."
+      },
+      {
+        "id": 2,
+        "title": "Frontend Developer",
+        "company": "Beta Inc",
+        "link": "https://example.com/job2",
+        "applicationDate": "2024-01-15",
+        "status": "Refusé",
+        "interviewDate": null,
+        "notes": "Feedback received.",
+        "remarques": "Consider other opportunities."
+      }
+    ]
