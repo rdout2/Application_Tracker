@@ -26,17 +26,19 @@ export default function Home() {
         </p>
 
         <div className="flex space-x-4">
+          {/* Go to Dashboard → Middleware vérifie session */}
           <Link href="/dashboard">
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow">
               Go to Dashboard
             </button>
           </Link>
+
+          {/* Sign Up */}
           <Link href="/signup">
             <button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg shadow">
               Sign Up
             </button>
           </Link>
-
         </div>
       </main>
 
