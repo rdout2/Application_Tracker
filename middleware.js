@@ -1,13 +1,12 @@
 import { NextResponse } from 'next/server';
-import { NextRequest } from 'next/server'; // Pas besoin de "type" si JS
+import { NextRequest } from 'next/server';
 
 export function middleware(request) {
-  // Utilisation correcte des cookies dans middleware
-  const session = request.cookies.get('session')?.value; // Important → .value ici
+  const session = request.cookies.get('session')?.value;
 
   const protectedPaths = ['/dashboard', '/application'];
 
-  const isProtected = protectedPaths.some(path =>
+  const isProtected = protectedPaths.some((path) =>
     request.nextUrl.pathname.startsWith(path)
   );
 
@@ -20,5 +19,5 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: ['/dashboard/:path*', '/application/:path*'],
+  matcher: ['/dashboard/:path*', '/dashboard', '/application/:path*'],
 };

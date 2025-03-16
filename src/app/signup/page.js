@@ -1,4 +1,6 @@
-import SignupForm from './SignupForm'
+'use client';
+
+import SignupForm from './SignupForm';
 
 export default function SignupPage() {
   return (
@@ -6,5 +8,5 @@ export default function SignupPage() {
       <h1 className="text-3xl font-bold mb-6">Create Your Account</h1>
       <SignupForm />
     </div>
-  )
+  );
 }
