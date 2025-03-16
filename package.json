@@ -6,7 +6,9 @@
             "dev": "next dev",
             "build": "next build",
             "start": "next start",
-            "lint": "next lint"
+            "lint": "next lint",
+             "generate": "dotenv -e .env -- drizzle-kit generate",
+  "migrate": "dotenv -e .env -- drizzle-kit migrate"
       },
       "dependencies": {
             "@dnd-kit/core": "^6.3.1",
@@ -26,6 +28,7 @@
             "@types/node": "20.17.24",
             "@types/react": "18.3.18",
             "@types/react-dom": "^18",
+            "dotenv-cli": "^8.0.0",
             "drizzle-kit": "^0.30.5",
             "eslint": "^8",
             "eslint-config-next": "14.0.4",

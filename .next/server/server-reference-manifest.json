@@ -1,5 +1,17 @@
 {
-  "node": {},
+  "node": {
+    "60605d3610639a88d3b956ef661472becf672cdef1": {
+      "workers": {
+        "app/signup/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Cauth.js%22%2C%5B%7B%22id%22%3A%2260605d3610639a88d3b956ef661472becf672cdef1%22%2C%22exportedName%22%3A%22signup%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/signup/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "QjpuuiCkK6gGZ2oO7z9aKOl6ggXQ0x8XC+9hTR2GdEU="
+  "encryptionKey": "KpljHXZswxE4VEnAh9BwdqjZ5xwWeQjijvdBRqissAY="
 }
