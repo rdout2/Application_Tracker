@@ -1,4 +1,4 @@
-// File: C:\Users\cash\Downloads\zero\src\app\dashboard\delete\[id]\route.js
+// File: C:\Users\AHMAT ROUCHAD\HETIC\app-tra\Application_Tracker\src\app\dashboard\delete\[id]\route.js
 import * as entry from '../../../../../../src/app/dashboard/delete/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 

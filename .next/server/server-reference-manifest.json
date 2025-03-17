@@ -1,88 +1,66 @@
 {
   "node": {
-    "00535a3a1dc676bc3a146754e2863c8d18e206b3a1": {
+    "002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a": {
       "workers": {
         "app/dashboard/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/dashboard/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
         "app/add/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/dashboard/page": "rsc",
-        "app/dashboard/[id]/page": "rsc",
-        "app/add/page": "action-browser"
+        "app/add/page": "action-browser",
+        "app/dashboard/[id]/page": "rsc"
       }
     },
-    "404c2b93b9bdb4898b8a8788ab593cc110d35f4b36": {
+    "4090e557e00be07c93757f454aaac0ac5cb8c13db5": {
       "workers": {
         "app/dashboard/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/dashboard/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
         "app/add/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/dashboard/page": "rsc",
-        "app/dashboard/[id]/page": "rsc",
-        "app/add/page": "action-browser"
+        "app/add/page": "action-browser",
+        "app/dashboard/[id]/page": "rsc"
       }
     },
-    "408d43fdf033df9aca544de963cb684b50c5ae6b2a": {
+    "6087309e5aa4556546ab1b29bf75e37042dc3ee0d5": {
       "workers": {
         "app/dashboard/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        },
-        "app/dashboard/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
         "app/add/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%2200535a3a1dc676bc3a146754e2863c8d18e206b3a1%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%22404c2b93b9bdb4898b8a8788ab593cc110d35f4b36%22%2C%22exportedName%22%3A%22addApplication%22%7D%2C%7B%22id%22%3A%22408d43fdf033df9aca544de963cb684b50c5ae6b2a%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAHMAT%20ROUCHAD%5C%5CHETIC%5C%5Capp-tra%5C%5CApplication_Tracker%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Capplications.js%22%2C%5B%7B%22id%22%3A%22002a7853cd9ce8a30be2e0ddb4ab58ed02c7bdc87a%22%2C%22exportedName%22%3A%22getApplications%22%7D%2C%7B%22id%22%3A%224090e557e00be07c93757f454aaac0ac5cb8c13db5%22%2C%22exportedName%22%3A%22deleteApplication%22%7D%2C%7B%22id%22%3A%226087309e5aa4556546ab1b29bf75e37042dc3ee0d5%22%2C%22exportedName%22%3A%22addApplication%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/dashboard/page": "rsc",
-        "app/dashboard/[id]/page": "rsc",
-        "app/add/page": "action-browser"
-      }
-    },
-    "60548b33536bbcb93e8cae733e3b149eeabb355553": {
-      "workers": {
-        "app/signup/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Cauth.js%22%2C%5B%7B%22id%22%3A%2260548b33536bbcb93e8cae733e3b149eeabb355553%22%2C%22exportedName%22%3A%22signup%22%7D%2C%7B%22id%22%3A%22609ee4c59cd765c7921869a9dd5dd43d4479c7f977%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/signup/page": "action-browser"
-      }
-    },
-    "609ee4c59cd765c7921869a9dd5dd43d4479c7f977": {
-      "workers": {
-        "app/signup/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccash%5C%5CDownloads%5C%5Czero%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Cauth.js%22%2C%5B%7B%22id%22%3A%2260548b33536bbcb93e8cae733e3b149eeabb355553%22%2C%22exportedName%22%3A%22signup%22%7D%2C%7B%22id%22%3A%22609ee4c59cd765c7921869a9dd5dd43d4479c7f977%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/signup/page": "action-browser"
+        "app/add/page": "action-browser",
+        "app/dashboard/[id]/page": "rsc"
       }
     }
   },

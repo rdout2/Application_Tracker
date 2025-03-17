@@ -3,6 +3,7 @@
 import { useActionState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { addApplication } from '@/app/actions/applications';
+import { title } from 'process';
 
 export default function AddApplication() {
   const [state, formAction, pending] = useActionState(addApplication, undefined);
@@ -19,15 +20,40 @@ export default function AddApplication() {
       return () => clearTimeout(timer);
     }
   }, [state, router]);
-
+  async function createInvoice(formData: FormData) {
+    // 'use server'
+ 
+    const rawFormData = {
+      title: formData.get('title'),
+      company: formData.get('company'),
+      position: formData.get('position'),
+      jobBoard: formData.get('jobBoard'),
+      location: formData.get('location'),
+      applicationDate: formData.get('applicationDate'),
+      status: formData.get('status'),
+      notes: formData.get('notes'),
+      remarques: formData.get('remarques'),
+    }
+ 
+    console.log({ rawFormData })
+    // mutate data
+    // revalidate cache
+  }
+ 
   return (
     <div className="container mx-auto p-8 max-w-3xl bg-white shadow-lg rounded-2xl">
       <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">📥 Add New Application</h1>
 
-      <form action={formAction} className="space-y-6">
+      <form action={(data) => {
+        console.log({data});
+// formAction(data)
+createInvoice(data)
+
+formAction(data)
+      }} className="space-y-6">
         <div className="grid grid-cols-2 gap-6">
           <div>
-            <label className="block text-sm font-medium mb-1 text-gray-700">Title</label>
+            <label htmlFor='title' className="block text-sm font-medium mb-1 text-gray-700">Title</label>
             <input 
               name="title" 
               required 
